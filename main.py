@@ -7,6 +7,6 @@ def close10(x, y):
     elif y < x:
         return y
     else:
-        return "they are equal"
+        return 0
 
 print(close10(9, 8))

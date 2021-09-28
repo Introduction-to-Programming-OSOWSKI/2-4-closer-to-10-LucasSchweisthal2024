@@ -4,9 +4,9 @@ def close10(x, y):
     abs(10 - y)
     if x > y:
         return x
-    elif y < x:
+    elif y > x:
         return y
     else:
         return 0
 
-print(close10(9, 8))
+print(close10(5, 18))

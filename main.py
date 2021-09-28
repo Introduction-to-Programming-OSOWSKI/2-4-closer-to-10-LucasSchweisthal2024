@@ -1,7 +1,7 @@
 #WRITE YOUR CODE IN THIS FILE
 def close10(x, y):
-    10 - x
-    10 - y
+    abs(10 - x)
+    abs(10 - y)
     if x > y:
         return x
     elif y < x:
